@@ -24,6 +24,7 @@ main {
     justify-content: space-between;
     position: relative;
 }
+
 .txt-div {
     width: 300px;
     height: 240px;
@@ -32,6 +33,7 @@ main {
     justify-content: center;
     margin-left: 60px;
 }
+
 p {
     width: 415px;
     margin-top: 20px;
@@ -39,6 +41,7 @@ p {
     font-family: 'Inter', sans-serif;
     font-weight: 400;
 }
+
 h1 {
     color: hsl(0, 0%, 100%);
     font-family: 'Inter', sans-serif;
@@ -46,9 +49,11 @@ h1 {
     width: 400px;
 
 }
+
 .insight-class {
     color: hsl(277, 64%, 61%);
 }
+
 footer {
     position: absolute;
     top: 190px;
@@ -57,16 +62,18 @@ footer {
     width: 370px;
     margin-left: 35px;
     margin-top: 60px;
-    color: hsl(0, 0%, 100%);
+    color: hsla(0, 0%, 100%, 0.75);
     font-family: 'Lexend Deca', sans-serif;
     font-weight: 400;
 }
+
 .bg {
     position: relative;
     width: 500px;
     height: 100%;
     border-radius: 0 10px 10px 0;
 }
+
 .bg-frame {
     position: absolute;
     width: 500px;
@@ -74,4 +81,5 @@ footer {
     background-color: hsl(277, 59%, 45%);
     left: 50%;
     opacity: 0.6;
+    border-radius: 0 10px 10px 0;
 }
